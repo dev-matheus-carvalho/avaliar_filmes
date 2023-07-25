@@ -11,7 +11,7 @@ class FilmeAdmin(admin.ModelAdmin):
 
 
 class AvaliacaoAdmin(admin.ModelAdmin):
-    list_display = ('filme', 'nota')
+    list_display = ('filme', 'usuario', 'nota')
 
 
 admin.site.register(Usuario, UsuarioAdmin)

@@ -24,4 +24,4 @@ class Avaliacao(models.Model):
     comentario = models.TextField()
 
     def __str__(self):
-        return f'{self.filme} {self.nota}'
+        return f'{self.filme} {self.usuario} {self.nota}'
